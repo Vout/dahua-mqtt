@@ -14,14 +14,14 @@ URL_TEMPLATE = (
     "http://{host}:{port}/cgi-bin/eventManager.cgi?"
     "action=attach&codes=%5B{events}%5D"
   )
-MQTT_BROKER_IP = '192.168.2.250'
+MQTT_BROKER_IP = ''
 MQTT_BROKER_USERNAME = ''
 MQTT_BROKER_PASSWORD = ''
 CAMERAS = [{
-    'host': '192.168.2.150',
+    'host': '',
     'port': 80,
-    'user': 'admin',
-    'pass': '6642nBpK8YWG',
+    'user': '',
+    'pass': '',
     'events': (
                 "VideoMotion,VideoBlind,VideoAbnormalDetection,SceneChange,"
                 "CrossLineDetection,CrossRegionDetection,LeftDetection,"
